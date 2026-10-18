@@ -1,0 +1,11 @@
+{
+	"name": "pi-tmux-subagent",
+	"version": "1.0.0",
+	"description": "Visible, interactive pi subagents in tmux windows. The orchestrator gets a subagent_tmux tool; the subagent reports back via subagent_done.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": ["pi-package", "pi", "tmux", "subagent", "orchestrator"],
+	"pi": {
+		"extensions": ["./extensions/index.ts"]
+	}
+}
